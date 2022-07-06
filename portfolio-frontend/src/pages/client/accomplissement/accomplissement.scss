@@ -1,0 +1,33 @@
+.cta-box{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 5rem;
+	text-align: center;
+}
+.wrap{
+	background: #ffffff;
+	box-shadow: 18px 0px 87px 0px rgba(10, 15, 70, 0.07);
+	border-radius: 12px;
+	padding: 50px 50px 50px 50px;
+	transition: ease .40s;
+	cursor: pointer;
+}
+.one{
+	background: #baebcd;
+}
+.two{
+	background: #D9D1FA;
+}
+.three{
+	background: #faedce;
+}
+.wrap h3{
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 2px;
+}
+.wrap p{
+	font-size: var(--p-font);
+}
